@@ -6,14 +6,15 @@ except ImportError:
 
 
 def main(infile):
-    import argparse
+    line_count(infile)
+
+
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="This program prints the number of lines in infile.")
     parser.add_argument('infile')
     args = parser .parse_args()
     if args.infile:
         main(args.infile)
-
-
-if __name__ == "__main__":
    
     
