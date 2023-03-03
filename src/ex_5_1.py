@@ -1,4 +1,7 @@
 """ex_5_1.py"""
+
+import argparse
+
 try:
     from src.ex_5_0 import line_count
 except ImportError:
